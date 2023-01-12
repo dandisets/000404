@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000404
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.3/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -25,15 +26,21 @@ description: 'This dataset includes binned spike count data (chronic microwire a
   locations, trials) from Athalye*, Khanna* et. al. "The brain uses invariant dynamics
   to control different movements" (in review). For more information about this data,
   please contact Vivek Athalye and/or Preeya Khanna. '
+ethicsApproval: []
 id: DANDI:000404/draft
 identifier: DANDI:000404
+keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000404/versions/draft/assets/
 name: Monkey 2D cursor BMI
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000404/draft
 version: draft
+wasGeneratedBy: []
