@@ -3,19 +3,34 @@
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.3/context.json
 about:
-- name: Monkey 2D cursor BMI spiking and behavioral data
+- name: Monkey motor cortex spiking and BMI behavioral data
   schemaKey: GenericType
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 acknowledgement: ''
 assetsSummary:
-  numberOfBytes: 1
-  numberOfFiles: 1
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 1046740856
+  numberOfFiles: 13
+  numberOfSubjects: 2
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
+    name: Macaca mulatta - Rhesus monkey
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ProcessingModule
 citation: Athalye, Vivek R; Khanna, Preeya; Gowda, Suraj; Orsborn, Amy L; Costa, Rui
   M; Carmena, Jose M (2023) Monkey 2D cursor BMI (Version draft) [Data set]. DANDI
-  archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  archive. https://dandiarchive.org/dandiset/000404/draft
 contributor:
 - affiliation: []
   email: va2371@columbia.edu
@@ -122,7 +137,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-01-12T06:00:12.941755+00:00'
-datePublished: '2023-06-05T15:01:53.313543+00:00'
+datePublished: '2023-06-05T20:24:07.048583+00:00'
 description: "This dataset includes binned spike count data (chronic microwire arrays
   in PMd/M1) and brain-machine-interface behavioral data (2D cursor kinematics, target
   locations, trials) from Athalye, V*, Khanna, P*, Gowda S, Orsborn, AL, Costa RM**,
@@ -130,8 +145,7 @@ description: "This dataset includes binned spike count data (chronic microwire a
   movements\": https://www.biorxiv.org/content/10.1101/2021.08.27.457931v2. \n\nFor
   more information about this data, please contact Vivek Athalye and/or Preeya Khanna.
   \n\nCode for analyzing this data and re-creating manuscript figures is located:
-  https://github.com/pkhanna104/bmi_dynamics_code"
-doi: 10.80507/dandi.123456/0.123456.1234
+  https://github.com/pkhanna104/bmi_dynamics_code and archived at https://zenodo.org/record/8006653"
 ethicsApproval:
 - contactPoint:
     email: acuc@berkeley.edu
@@ -161,13 +175,13 @@ protocol:
 - https://doi.org/10.1016/j.neuron.2014.04.048
 - https://doi.org/10.1162/NECO_a_00632
 publishedBy:
-  endDate: '2023-06-05T15:01:53.313543+00:00'
-  id: urn:uuid:b5de622d-3f75-419f-9eea-2131357ff99a
+  endDate: '2023-06-05T20:24:07.048583+00:00'
+  id: urn:uuid:345da367-0d49-486f-a1fd-fbe0d7c86c09
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-06-05T15:01:53.313543+00:00'
+  startDate: '2023-06-05T20:24:07.048583+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:893975d0-5a34-4148-a893-937e7110f8f7
+  - id: urn:uuid:91741bc8-9aa6-4c7e-8d93-6114706129e9
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
