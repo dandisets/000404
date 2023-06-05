@@ -29,8 +29,8 @@ assetsSummary:
   variableMeasured:
   - ProcessingModule
 citation: Athalye, Vivek R; Khanna, Preeya; Gowda, Suraj; Orsborn, Amy L; Costa, Rui
-  M; Carmena, Jose M (2023) Monkey 2D cursor BMI (Version draft) [Data set]. DANDI
-  archive. https://dandiarchive.org/dandiset/000404/draft
+  M; Carmena, Jose M (2023) Monkey 2D cursor BMI (Version 0.230605.2024) [Data set].
+  DANDI archive. https://doi.org/10.48324/dandi.000404/0.230605.2024
 contributor:
 - affiliation: []
   email: va2371@columbia.edu
@@ -146,6 +146,7 @@ description: "This dataset includes binned spike count data (chronic microwire a
   more information about this data, please contact Vivek Athalye and/or Preeya Khanna.
   \n\nCode for analyzing this data and re-creating manuscript figures is located:
   https://github.com/pkhanna104/bmi_dynamics_code and archived at https://zenodo.org/record/8006653"
+doi: 10.48324/dandi.000404/0.230605.2024
 ethicsApproval:
 - contactPoint:
     email: acuc@berkeley.edu
@@ -153,7 +154,7 @@ ethicsApproval:
     url: https://acuc.berkeley.edu/
   identifier: UC Berkeley IACUC
   schemaKey: EthicsApproval
-id: DANDI:000404/draft
+id: DANDI:000404/0.230605.2024
 identifier: DANDI:000404
 keywords:
 - neural population dynamics
@@ -168,7 +169,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000404/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000404/0.230605.2024/assets.yaml
 name: Monkey 2D cursor BMI
 protocol:
 - https://doi.org/10.1073/pnas.1934665100
@@ -191,6 +192,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000404/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000404/0.230605.2024
+version: 0.230605.2024
 wasGeneratedBy: []
