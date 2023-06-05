@@ -10,27 +10,12 @@ access:
   status: dandi:OpenAccess
 acknowledgement: ''
 assetsSummary:
-  approach: []
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique:
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 1046740856
-  numberOfFiles: 13
-  numberOfSubjects: 2
+  numberOfBytes: 1
+  numberOfFiles: 1
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
-    name: Macaca mulatta - Rhesus monkey
-    schemaKey: SpeciesType
-  variableMeasured:
-  - ProcessingModule
 citation: Athalye, Vivek R; Khanna, Preeya; Gowda, Suraj; Orsborn, Amy L; Costa, Rui
   M; Carmena, Jose M (2023) Monkey 2D cursor BMI (Version draft) [Data set]. DANDI
-  archive. https://dandiarchive.org/dandiset/000404/draft
+  archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   email: va2371@columbia.edu
@@ -137,6 +122,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-01-12T06:00:12.941755+00:00'
+datePublished: '2023-06-05T15:01:53.313543+00:00'
 description: "This dataset includes binned spike count data (chronic microwire arrays
   in PMd/M1) and brain-machine-interface behavioral data (2D cursor kinematics, target
   locations, trials) from Athalye, V*, Khanna, P*, Gowda S, Orsborn, AL, Costa RM**,
@@ -145,12 +131,13 @@ description: "This dataset includes binned spike count data (chronic microwire a
   more information about this data, please contact Vivek Athalye and/or Preeya Khanna.
   \n\nCode for analyzing this data and re-creating manuscript figures is located:
   https://github.com/pkhanna104/bmi_dynamics_code"
+doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval:
 - contactPoint:
-    email: jcarmena@berkeley.edu
+    email: acuc@berkeley.edu
     schemaKey: ContactPoint
     url: https://acuc.berkeley.edu/
-  identifier: UC Berkeley, AUP-2014-09-6720-2
+  identifier: UC Berkeley IACUC
   schemaKey: EthicsApproval
 id: DANDI:000404/draft
 identifier: DANDI:000404
@@ -173,6 +160,18 @@ protocol:
 - https://doi.org/10.1073/pnas.1934665100
 - https://doi.org/10.1016/j.neuron.2014.04.048
 - https://doi.org/10.1162/NECO_a_00632
+publishedBy:
+  endDate: '2023-06-05T15:01:53.313543+00:00'
+  id: urn:uuid:b5de622d-3f75-419f-9eea-2131357ff99a
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-06-05T15:01:53.313543+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:893975d0-5a34-4148-a893-937e7110f8f7
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
